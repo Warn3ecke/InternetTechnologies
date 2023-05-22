@@ -1,0 +1,6 @@
+{
+"Vorname":{"type":"string","stereotype":"primitive","label":"Vorname"},
+"Nachname":{"type":"string","stereotype":"primitive","label":"Nachname"},
+"IBAN":{"type":"string","stereotype":"primitive","label":"IBAN"},
+"BIC":{"type":"string","stereotype":"primitive","label":"BIC"}
+}

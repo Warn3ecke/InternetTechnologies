@@ -1,0 +1,11 @@
+{
+"Titel":{"type":"string","stereotype":"primitive","label":"Titel"},
+"Kategorie":{"type":"KategorieT","stereotype":"enumeration","classAlias":"KategorieT0","label":"Kategorie"},
+"Beschreibung":{"type":"string","stereotype":"primitive","label":"Beschreibung"},
+"Startzeit":{"type":"time","stereotype":"primitive","label":"Startzeit"},
+"Streckenlaenge":{"type":"float","stereotype":"primitive","label":"Streckenlaenge"},
+"Preis":{"type":"string","stereotype":"primitive","label":"Preis"},
+"Streckenplan":{"type":"fileT","stereotype":"structure","group":"true","label":"fileT"},
+"Streckeprofil":{"type":"fileT","stereotype":"structure","group":"true","label":"fileT"},
+"_Laufevent":{"type":"foreign","stereotype":"relation","class":"Laufevent","classAlias":"Laufevent","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}

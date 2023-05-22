@@ -1,0 +1,5 @@
+{
+"Verein":{"type":"string","stereotype":"primitive","label":"Verein"},
+"Ansprechperson":{"type":"PersonT","stereotype":"structure","group":"true","label":"PersonT"},
+"_User_uid":{"type":"foreign","stereotype":"relation","class":"User","classAlias":"User","renderAs": {"new": {"control": "hidden"},"edit": {"control": "hidden"},"list": {"control": "hidden"},"detail": {"control": "hidden"}}}
+}

@@ -1,0 +1,5 @@
+{
+"PLZ":{"type":"string","stereotype":"primitive","label":"PLZ"},
+"Ort":{"type":"string","stereotype":"primitive","label":"Ort"},
+"Strasse":{"type":"string","stereotype":"primitive","label":"Strasse"}
+}

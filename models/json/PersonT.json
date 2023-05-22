@@ -1,0 +1,6 @@
+{
+"Vorname":{"type":"string","stereotype":"primitive","label":"Vorname"},
+"Nachname":{"type":"string","stereotype":"primitive","label":"Nachname"},
+"Telefonnummer":{"type":"string","stereotype":"primitive","label":"Telefonnummer"},
+"Email":{"type":"string","stereotype":"primitive","label":"Email"}
+}

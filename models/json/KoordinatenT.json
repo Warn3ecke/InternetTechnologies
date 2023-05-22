@@ -1,0 +1,4 @@
+{
+"Laengengrad":{"type":"float","stereotype":"primitive","label":"Laengengrad"},
+"Breitengrad":{"type":"float","stereotype":"primitive","label":"Breitengrad"}
+}

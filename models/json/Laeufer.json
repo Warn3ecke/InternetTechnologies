@@ -1,0 +1,12 @@
+{
+"Geschlecht":{"type":"GeschlechtT","stereotype":"enumeration","classAlias":"GeschlechtT0","label":"Geschlecht"},
+"Alter":{"type":"string","stereotype":"primitive","label":"Alter"},
+"Bestaetigung":{"type":"BestaetigungT","stereotype":"enumeration","classAlias":"BestaetigungT1","label":"Bestaetigung"},
+"Bruttozeit":{"type":"time","stereotype":"primitive","label":"Bruttozeit"},
+"Nettozeit":{"type":"time","stereotype":"primitive","label":"Nettozeit"},
+"Altersklasse":{"type":"AltersklasseT","stereotype":"enumeration","classAlias":"AltersklasseT2","label":"Altersklasse"},
+"Info":{"type":"PersonT","stereotype":"structure","group":"true","label":"PersonT"},
+"Ort":{"type":"OrtsangabeT","stereotype":"structure","group":"true","label":"OrtsangabeT"},
+"Bankdaten":{"type":"BankdatenT","stereotype":"structure","group":"true","label":"BankdatenT"},
+"_Lauf":{"type":"foreign","stereotype":"relation","class":"Lauf","classAlias":"Lauf","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}
