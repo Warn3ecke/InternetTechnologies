@@ -16,7 +16,7 @@ if($menu["heading"] == ""){
 <div class="dashboardwrapper">
 <?=$image?>
 <div class="hometitle">
-    Hello
+    Hallo
   <span class="hometitle-span"><?=$menu["heading"];?></span>
   <hr class="hr-text" data-content="<?=$menu["text"];?>">
 </div>
